@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tela.css">
+    <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/efeitos.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmvxKoU3iMLBRRQ-PM30Y1-30OU5HzxK8"> </script>
+</head>
+
+<body>
+
+    <!-- div relaciona ao campo de pesquisa -->
+    <div class="pesquisa">
+
+        <div class="col-xs-6">
+            <input type="text" placeholder="Cidade" class="form-control" id="cidade">
+        </div>
+
+        <button class="btn btn-info" onclick="pesquisa()" id="botaoPesquisa">Pesquisar</button>
+        
+    </div>
+    
+    <br><br>
+    
+    <!-- Cards relacionadas as temperaturas atual, mínima e máxima. -->
+    <div class="temperaturas">
+        
+        <div class="tituloTemp">
+            Tempo
+            <div class="traco"></div>
+        </div>    
+        
+        <div id="infoCidade"></div>
+        <div id="tAtual"></div>
+        <div id="tMinima"></div>
+        <div id="tMaxima"></div>
+        
+    </div>
+    
+    
+    <!-- Dados Geográficos. -->
+    <div class="geografia">
+        
+        <div class="tituloGeo">
+            Mapa
+            <div class="traco"></div>
+        </div>
+        
+        <div id="mapa"></div> 
+        <div id="geo"></div>
+        
+    </div>
+    
+</body>
+
+</html>

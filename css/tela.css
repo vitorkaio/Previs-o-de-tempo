@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.pesquisa{
+    margin-top: 5%;
+    margin-left: 28%;
+}
+
+.temperaturas{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: none;
+}
+
+.tituloTemp{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+.traco{
+    width: 75%;
+    height: 1px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: black;
+}
+
+#infoCidade{
+    margin-left: 42%;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+#tAtual{
+    float: left;
+    width:120px;
+    height:120px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: mediumseagreen;
+    margin-left: 20%;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#tMinima{
+    float: left;
+    width:120px;
+    height:120px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: skyblue;
+    margin-left: 13%;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#tMaxima{
+    width:120px;
+    height:120px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: indianred;
+    margin-left: 65%;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.geografia{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: none;
+}
+
+.tituloGeo{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+#mapa{
+    width: 260px;
+    height: 260px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+#geo{
+    width:570px;
+    height:220px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: burlywood;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 25px;
+    padding-top: 3%;
+    padding-left: 1%;
+}
